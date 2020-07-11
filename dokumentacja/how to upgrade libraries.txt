@@ -1,0 +1,103 @@
+
+platformio lib -d "C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu2\lib" update
+
+polecenie:
+platformio settings get auto_update_libraries
+
+
+20190804:
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota> platformio lib update
+Library Storage: C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota\.pio\libdeps\d1_mini_lite
+PS C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota> platformio -g lib update
+Error: no such option: -g
+PS C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota> platformio lib -g update
+Library Storage: C:\Users\Andrzej\.platformio\lib
+PS C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota> platformio lib update
+Library Storage: C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota\.pio\libdeps\d1_mini_lite
+PS C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota> platformio lib -d /path/to/dir update
+Usage: platformio lib [OPTIONS] COMMAND [ARGS]...
+
+Error: Invalid value for "-d" / "--storage-dir": Directory "/path/to/dir" does not exist.
+PS C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota> platformio lib -d C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota\lib update
+Usage: platformio lib [OPTIONS] COMMAND [ARGS]...
+
+Error: Invalid value for "-d" / "--storage-dir": Directory "C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu" does not exist.
+PS C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota> platformio lib -d \lib update
+Usage: platformio lib [OPTIONS] COMMAND [ARGS]...
+
+Error: Invalid value for "-d" / "--storage-dir": Directory "\lib" does not exist.
+PS C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota> platformio lib -d "C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota\lib" update
+Library Storage: C:\Users\Andrzej\Documents\PlatformIO\Projects\cwu ota\lib
+Updating Adafruit AM2320 sensor library  @ 1.1.1          [1.1.2]
+Uninstalling Adafruit AM2320 sensor library @ 1.1.1:    [OK]
+Looking for Adafruit AM2320 sensor library library in registry
+Found: https://platformio.org/lib/show/2456/Adafruit AM2320 sensor library
+LibraryManager: Installing id=2456 @ 1.1.2
+Downloading  [####################################]  100%
+Unpacking  [####################################]  100%
+Adafruit AM2320 sensor library @ 1.1.2 has been successfully installed!
+Updating Adafruit BME280 Library         @ 1.0.8          [1.0.9]
+Uninstalling Adafruit BME280 Library @ 1.0.8:   [OK]
+Looking for Adafruit BME280 Library library in registry
+Found: https://platformio.org/lib/show/166/Adafruit BME280 Library
+LibraryManager: Installing id=166 @ 1.0.9
+Downloading  [####################################]  100%
+Unpacking  [####################################]  100%
+Adafruit BME280 Library @ 1.0.9 has been successfully installed!
+Updating Adafruit BMP280 Library         @ 1.0.3          [1.0.4]
+Uninstalling Adafruit BMP280 Library @ 1.0.3:   [OK]
+Looking for Adafruit BMP280 Library library in registry
+Found: https://platformio.org/lib/show/528/Adafruit BMP280 Library
+LibraryManager: Installing id=528 @ 1.0.4
+Downloading  [####################################]  100%
+Unpacking  [####################################]  100%
+Adafruit BMP280 Library @ 1.0.4 has been successfully installed!
+Updating Adafruit Circuit Playground     @ 1.8.4          [1.8.6]
+Uninstalling Adafruit Circuit Playground @ 1.8.4:       [OK]
+Looking for Adafruit Circuit Playground library in registry
+Found: https://platformio.org/lib/show/602/Adafruit Circuit Playground
+LibraryManager: Installing id=602 @ 1.8.6
+Downloading  [####################################]  100%
+Unpacking  [####################################]  100%
+Adafruit Circuit Playground @ 1.8.6 has been successfully installed!
+Updating Adafruit GFX Library            @ 1.5.3          [1.5.6]
+Uninstalling Adafruit GFX Library @ 1.5.3:      [OK]
+Looking for Adafruit GFX Library library in registry
+Found: https://platformio.org/lib/show/13/Adafruit GFX Library
+LibraryManager: Installing id=13 @ 1.5.6
+Downloading  [####################################]  100%
+Unpacking  [####################################]  100%
+Adafruit GFX Library @ 1.5.6 has been successfully installed!
+Updating Adafruit SSD1306 Wemos Mini OLED @ 1.1.2          [Up-to-date]
+Updating Adafruit Unified Sensor         @ 1.0.3          [Up-to-date]
+Updating LOLIN D1 Examples               @ 1.0.0          [Up-to-date]
+Updating DHT sensor library              @ 1.3.4          [1.3.7]
+Uninstalling DHT sensor library @ 1.3.4:        [OK]
+Looking for DHT sensor library library in registry
+Found: https://platformio.org/lib/show/19/DHT sensor library
+LibraryManager: Installing id=19 @ 1.3.7
+Downloading  [####################################]  100%
+Unpacking  [####################################]  100%
+DHT sensor library @ 1.3.7 has been successfully installed!
+Updating DHT sensor library for ESPx     @ 1.0.11         [1.0.13]
+Uninstalling DHT sensor library for ESPx @ 1.0.11:      [OK]
+Looking for DHT sensor library for ESPx library in registry
+Found: https://platformio.org/lib/show/2029/DHT sensor library for ESPx
+LibraryManager: Installing id=2029 @ 1.0.13
+Downloading  [####################################]  100%
+Unpacking  [####################################]  100%
+DHT sensor library for ESPx @ 1.0.13 has been successfully installed!
+Updating DallasTemperature               @ 3.8.0          [Up-to-date]
+Updating OneWire                         @ 2.3.4          [Up-to-date]
+Updating PCF8574 library                 @ 0.9.0          [Detached]
+Updating RadioNRF24                      @ 1.0.2          [Detached]
+Updating SdFat                           @ 2016.7.24      [Up-to-date]
+Updating Servo                           @ 1.1.4          [Up-to-date]
+Updating Time                            @ 1.5            [Up-to-date]
+Updating credentials                     @ 0.0.0          [Detached]
+Updating datalogger_classes              @ 0.0.0          [Detached]
+Updating io_classes                      @ 0.0.0          [Detached]
+Updating virtuino_ESP                    @ 0.0.0          [Detached]
